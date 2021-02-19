@@ -10,7 +10,7 @@ class CheckingStockPrice:
         self.args = args
         #self.ts = TimeSeries(key=self.args.api_key, output_format='pandas')
         self.cc = CryptoCurrencies(key=self.args.api_key, output_format='pandas')
-        self.daily_data, self.meta_data = self.cc.get_digital_currency_daily(symbol='BTC', market='USD')
+        self.daily_data, self.meta_data = self.cc.get_digital_currency_daily(symbol='ETC', market='USD')
         print('reached here')
         # pass
 
